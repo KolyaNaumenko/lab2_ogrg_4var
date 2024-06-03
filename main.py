@@ -80,7 +80,7 @@ def range_search(node, region_min, region_max, depth=0, results=None):
     return results
 
 # Визначаємо регіон пошуку
-region_min = np.array([3, 8])
+region_min = np.array([0,0])
 region_max = np.array([9, 10])
 
 # Виконуємо пошук точок у заданому регіоні
